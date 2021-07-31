@@ -1,6 +1,43 @@
-# COMP9417_FraudDetection
+# COMP9417 FraudDetection
 
-Due Date: Sunday, 1st August, 11:59PM
+## Team members
+Grace Liu (z5207875) 
+
+Kevin Luo (z5210356) 
+
+Ryan Oo (z5206676) 
+
+Andy Tang (z5209677) 
+
+Neil Yang (z5207831)
+
+## Overview
+We decided to do a research prediction competition on kaggle, where we were required to predict a probability for the isFraud variable.
+
+This repository will contain our files which we used to examine and experiment with model.
 
 ## Kaggle Competition:
 https://www.kaggle.com/c/ieee-fraud-detection/overview
+
+
+## File setup
+
+1. First clone this repository enter the root folder
+```bash
+$ git clone https://github.com/dandruffneil/COMP9417_FraudDetection.git
+$ cd COMP9417_FraudDetection
+```
+2. Setup virtual environment
+```bash
+$ virtualenv venv
+$ . venv/bin/activate
+$ pip3 install -r requirements.txt
+```
+3. Run selected files
+```bash
+$ python3 {filename}
+# Example file
+$ python3 final_lgbm.py
+```
+
+Due Date: Sunday, 1st August, 11:59PM
