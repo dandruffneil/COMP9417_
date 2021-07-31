@@ -42,7 +42,15 @@ $ pip3 install -r requirements.txt
 ```bash
 $ python3 {filename}
 # Example file
-$ python3 final_lgbm.py
+$ python3 Tree.py
 ```
+
+### File types
+
+get_data.py
+* Provides functions to preprocess the dataset
+
+LogisticRegression.py/Tree.py/.../XGB.py/LGBM.py
+* Provides the functions to conduct randomsearch, gridsearch, plots and generate the csv for submitting to kaggle
 
 Due Date: Sunday, 1st August, 11:59PM
