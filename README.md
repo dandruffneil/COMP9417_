@@ -25,6 +25,7 @@ https://www.kaggle.com/c/ieee-fraud-detection/overview
 ### Prerequisites
 
 Installation of Graphviz may be needed for some plots.
+
 Steps to install can be found here: https://graphviz.org/download/
 
 1. First clone this repository enter the root folder
@@ -47,12 +48,21 @@ $ python3 Tree.py
 
 ### File types
 
+FeatureSelection.py
+
+- Provides functions which produce heatmaps and conducts feature selection on the dataset
+
 get_data.py
 
 - Provides functions to preprocess the dataset
+- readData(scale=False, all=False, filtered=False)
+	- scale = configures whether the features are normalised
+	- all = configures whether all the data was used, otherwise 10% of data was used with a 4:1 (train:test) split
+	- filtered = configures whether the selected features are used
 
 LogisticRegression.py/Tree.py/.../XGB.py/LGBM.py
 
-- Provides the functions to conduct randomsearch, gridsearch, plots and generate the csv for submitting to kaggle
+- Provides the functions to conduct randomsearch and gridsearch on the dataset to find the best parameter
+- Some files (Tree.py, RandomForest.py, XGB.py, LGBM.py) provide functions to produce plots and generate the csv for submitting to kaggle
 
 Due Date: Sunday, 1st August, 11:59PM
