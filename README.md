@@ -48,9 +48,11 @@ $ python3 Tree.py
 ### File types
 
 get_data.py
-* Provides functions to preprocess the dataset
+
+- Provides functions to preprocess the dataset
 
 LogisticRegression.py/Tree.py/.../XGB.py/LGBM.py
-* Provides the functions to conduct randomsearch, gridsearch, plots and generate the csv for submitting to kaggle
+
+- Provides the functions to conduct randomsearch, gridsearch, plots and generate the csv for submitting to kaggle
 
 Due Date: Sunday, 1st August, 11:59PM
